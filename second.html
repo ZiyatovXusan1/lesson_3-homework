@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+    <header>
+        <div class="head container">
+            <div class="left_head">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="right_head">
+                <a href="">Services</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <button>Log in</button>
+                <button>Open an account</button>
+                <button>ENG &#9662</button>
+            </div>
+        </div>
+    </header>
+        <main>
+            <section class="section container">
+                <div class="top">
+
+                    <img src="images/logo.png" alt="">
+                    <h1>Welcome to ByTrend!</h1>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+                <form>
+                    <div class="inp">
+                        <div>
+                            <label for="name">First name<span>*</span></label>
+                            <br>
+                            <input class="input" id="name" type="text" placeholder="Name" value="Alexandr" readonly required>
+                        </div>
+                        <div>
+                            <label for="lastname">Last name<span>*</span></label>
+                            <br>
+                            <input class="input" type="text" id="lastname" placeholder="Your surname" required>
+                        </div>
+                    </div>
+                    <br>
+                        <label for="birth">Birth date</label><br>
+                        <input class="second" type="date" id="birth" placeholder="06.12.1992" required>
+                    <br><br>
+                    <div class="gender">
+                        <div>
+                            <label for="gender">Gender<span>*</span></label><br>
+                            <div class="radio">
+                                <input class="radio2" type="radio" name="gender" id="gender" placeholder="Female" required>
+                                <p>Female</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="none" for="gender">Gender</label><br>
+                            <div class="radio black">
+                                <input class="radio2" type="radio" name="gender" id="gender" required>
+                                <p>Male</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <label for="skype">Skype</label><br>
+                    <input class="second" type="email" id="skype" placeholder="Your skype login">
+                    <br><br>
+                    <label for="promo">Promo</label><br>
+                    <input class="second" type="number" id="promo" placeholder="Your promo" required>
+                    <br><br>
+
+                    <button type="submit" class="second btn">Continue <img src="images/Arrow Right 1 - 24px.png" alt=""> </button>
+                </form>
+            </section>
+        </main>
+    
+</body>
+
+</html>
